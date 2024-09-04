@@ -1,0 +1,25 @@
+Convert the following values to different types (string, number, boolean) and explain the result: true "123" 0 null in js
+
+
+Here are the conversions you requested:
+
+1. true
+
+Convert to string: String(true) => "true" - The boolean value true is converted to a string "true".
+Convert to number: Number(true) => 1 - The boolean value true is converted to the number 1, because in JavaScript, true is considered truthy and is equivalent to 1 in a numeric context.
+Convert to boolean: Boolean(true) => true - No change, as true is already a boolean value.
+2. "123"
+
+Convert to string: String("123") => "123" - No change, as "123" is already a string.
+Convert to number: Number("123") => 123 - The string "123" is converted to the number 123, because it can be parsed as a numeric value.
+Convert to boolean: Boolean("123") => true - The string "123" is converted to true, because in JavaScript, non-empty strings are considered truthy.
+3. 0
+
+Convert to string: String(0) => "0" - The number 0 is converted to the string "0".
+Convert to number: Number(0) => 0 - No change, as 0 is already a number.
+Convert to boolean: Boolean(0) => false - The number 0 is converted to false, because in JavaScript, 0 is considered falsy.
+4. null
+
+Convert to string: String(null) => "null" - The null value is converted to the string "null".
+Convert to number: Number(null) => 0 - The null value is converted to the number 0, because in JavaScript, null is considered falsy and is equivalent to 0 in a numeric context.
+Convert to boolean: Boolean(null) => false - The null value is converted to false, because in JavaScript, null is considered falsy.

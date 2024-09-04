@@ -1,0 +1,15 @@
+This is a JavaScript program that prints "Hello, World!" to the console
+
+This line uses the console.log function to print a message to the console
+console.log("Hello, World!");
+Let me explain what each line of the code does:
+This is a JavaScript program that prints "Hello, World!" to the console:
+This is a comment, which is a line of code that is ignored by the JavaScript interpreter.
+Comments are used to add notes or explanations to the code, making it easier for humans to understand.
+In this case, the comment is simply stating the purpose of the program.
+console.log("Hello, World!");
+This line uses the console.log function to print a message to the console.
+The console.log function is a built-in function in JavaScript that outputs a message to the console.
+The message is passed as a string argument, which in this case is "Hello, World!".
+When the code is executed, the console.log function will print the string "Hello, World!" 
+to the console, followed by a newline character.
